@@ -26,7 +26,7 @@ rude_list = [
 ]
 
 def generate():
-    print(rude_list[randint(0,len(rude_list))])
+    print(rude_list[randint(0,len(rude_list)-1)])
 
 if __name__ == "__main__":
     generate()
